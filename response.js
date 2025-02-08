@@ -5,7 +5,7 @@ const deleteChatButton = document.querySelector("#delete-chat-button");
 const suggestions = document.querySelectorAll(".suggestion");
 let userMessage = null;
 
-const API_KEY = "AIzaSyCpRKPYzuv_QU9ORlV29wYE0smtDHoa63M";  
+const API_KEY = "AIzaSyAAn4CwO7RYKjW12T_9pVKXrq4XpWryfkk";  
 const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
 
 // Creating a new message element and returning it
