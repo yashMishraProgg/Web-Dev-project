@@ -6,7 +6,7 @@ const suggestions = document.querySelectorAll(".suggestion");
 let userMessage = null;
 
 const API_KEY = "AIzaSyAAn4CwO7RYKjW12T_9pVKXrq4XpWryfkk";  
-const API_URL = `https://generativelanguage.googleapis.com/v1/models/gemini-pro:generateContent?key=${API_KEY}`;
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${API_KEY}`;
 
 // Creating a new message element and returning it
 const createMessageElement = (content, ...classes) => {
